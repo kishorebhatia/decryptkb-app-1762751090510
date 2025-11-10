@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 2rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin: 2rem 0;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4fa8c5;
+}
+
+.description {
+  color: #888;
+  font-size: 0.9rem;
+}
